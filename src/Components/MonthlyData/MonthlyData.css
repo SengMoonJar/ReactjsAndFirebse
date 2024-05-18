@@ -1,0 +1,150 @@
+.monthly_data{
+    background: linear-gradient(to top,rgb(249, 238, 238),rgb(226, 226, 248),rgb(249, 227, 227));
+    width: 330px;
+    height: 740px;
+    border: 1px solid black;
+}
+
+.monthly-data-header{
+    position:relative;
+    display: flex;
+    padding:2px;
+    height: 45px;
+    align-items: center;
+}
+.data-icon{
+    left: 13px;
+    position: absolute;
+    top: 5px;
+    font-size: 22px;
+    color:black;
+}
+.monthly-data-header-title{
+    padding-left: 14px;
+        font-weight: 500;
+        top: 5px;
+        left: 33px;
+        font-size: 22x;
+        position: absolute;
+    }
+.filter_year{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color:#e9e6e6ed;
+    }
+.filter_year select{
+    outline: none;
+    border: none;
+    width:70px;
+    height: 30px;
+   font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+}
+.filter_year option{
+    width:70px;
+    height: 30px;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #e9e6e6ed;
+    
+}
+.filter_year option :hover{
+   background-color: rgb(50, 51, 51);
+}
+/* data section*/
+::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+    background-color: transparent; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+  /* If you want to style the scrollbar on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Color of the scrollbar thumb on hover */
+  }
+.data_section{
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: transparent;
+    height: 670px;
+}
+.data_list{
+    list-style-type: none;
+    padding: 1px;
+}
+.data-section-li{
+    margin: 5px;
+}
+.data_header {
+    position:relative;
+    height: 30px;
+     justify-content: space-between;
+     display: flex;
+   }
+.data_header h3{
+    /* background-color:cadetblue; */
+    position: absolute;
+    /* left:4px;
+    top:1px; */
+    padding:3px;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.data_header p{
+    position:absolute;
+    right: 3px;
+    font-size: 18px;
+   top: 3px;
+    color: black;
+}
+.data_body{
+    height: 55px;
+    width: 290px;
+    background-color: #fafafa;
+    columns: 3;
+    padding:8px;
+    margin:0.8rem 0.4rem;
+    align-items: center;
+    border-radius: 3px;
+}
+.data_body h4{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 3px;
+}
+.data_body p{
+    font-size: 21x;
+    font-weight: 400;
+    padding-left: 8px;
+}
+.received_control{
+    padding-left: 3px;
+    border-right: 1px solid black;
+}
+.received_control p{
+    color:rgb(150, 231, 28);
+}
+.spent_control{
+    padding-left: 7px;
+    border-right: 1px solid black;
+}
+.spent_control p{
+    color:rgb(232, 27, 27);
+
+}
+.remain_control{
+    padding-left: 12px;
+}
+.remain_control p{
+    color:black;
+}

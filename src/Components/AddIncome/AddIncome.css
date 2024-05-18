@@ -1,0 +1,45 @@
+.add_income_form{
+    background: linear-gradient(to top,rgb(249, 238, 238),rgb(226, 226, 248),rgb(249, 227, 227));
+    width: 330px;
+    height: 740px;
+    border: 1px solid black;
+}
+.form_section{
+    margin: 6px;
+     padding: 5px;
+  }
+  .form_section lable{
+      font-size: 22px;
+      font-weight: 400;
+      padding: 5px;
+      margin-top: 1px;
+  }
+  .form_section input{
+      margin-top: 13px;
+      width: 295px;
+      height: 40px;
+      border-radius: 3px;
+      background-color: #fafafa;
+      border: 1px solid #c8c4c4ed;
+      outline: none;
+      padding: 5px;
+  }
+  .form_section .placeholder{
+      font-size: 20px;
+  }
+.submit-btn{
+    height: 40px;
+    font-size: 18px;
+    width: 300px;
+   position: absolute;
+   margin:27rem 0.5rem;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgb(84, 84, 246),rgb(239, 61, 61));
+   text-align: center;
+   border:1px solid #c8c4c4ed;
+   padding: 5px;
+}
+.submit-btn:hover{
+    background-color: rgb(63, 62, 62);
+    color:#c8c4c4ed;
+}

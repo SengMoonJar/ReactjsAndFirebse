@@ -1,0 +1,201 @@
+*{
+    margin:auto;
+}
+.home{
+    background: linear-gradient(to top,rgb(249, 238, 238),rgb(226, 226, 248),rgb(249, 227, 227));
+    width: 330px;
+    height: 740px;
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    height: 30px;
+    top:2px;
+    position: relative;
+    padding:3px;
+}
+.header h3{
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    left: 10px;
+    top:5px;
+}
+.header p{
+    z-index: 0;
+    font-size: 22px;
+    position: absolute;
+    right: 5px;
+}
+.total_controls {
+    background: linear-gradient(to right,rgb(84, 84, 246),rgb(239, 61, 61));
+    width: 300px;
+    height: 150px;
+    color:#fafafa;
+    border-radius: 7px;
+   margin: 1.2rem 0.9rem;
+    align-items: center;
+}
+.total_amount_control{
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 6.8rem;
+}
+.total_amount_control h4{
+    padding-left: 19px;
+}
+.total_amount_control p{
+    margin-left: 15px;
+    
+}
+.total_controls h4{
+    font-weight: 500;
+    font-size: 17px;
+    padding: 1px;
+}
+.total_controls p{
+    padding-left: 6px;
+    font-size:22px;
+}
+.total_received_spent{
+    columns: 2;
+    padding:4px 7px;
+    margin-top: 1px;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.total_received_control{
+    border-right: 1px solid black;
+    margin-left: 20px;
+}
+.total_spent_control{
+    padding-left: 10px;
+}
+ /* icon control */
+ .header-title {
+    position: absolute;
+    left: 3px;
+    font-weight: 400;
+    font-size: 22px;
+}
+ .icon-control{
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top:9px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    right: 3px;
+ }
+/* monthly section */
+.mothly_data_section{
+    width: 300px;
+    height: 90px;
+    border-radius: 7px;
+    align-items: center;
+}
+.monthly_data_header {
+    height: 25px;
+    justify-content: space-between;
+    padding:3px;
+    display: flex;
+    position: relative;
+   }
+
+.mothly_data_section h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+.mothly_data_section p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.monthly_data_body{
+    height: 50px;
+    background-color: #fafafa;
+    columns: 3;
+    padding:8px ;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.monthly_received_control{
+    padding-left: 7px;
+    border-right: 1px solid black;
+}
+.monthly_received_control p{
+    color:rgb(150, 231, 28);
+}
+.monthly_spent_control{
+    padding-left: 7px;
+    border-right: 1px solid black;
+}
+.monthly_spent_control p{
+    color:rgb(232, 27, 27);
+}
+.monthly_remain_control{
+    padding-left: 12px;
+}
+.monthly_remain_control p{
+    color:black;
+}
+
+/*all transition section*/
+.all_transcactions_control{
+    margin-top: 1.5rem;
+    height: 370px;
+    border-radius: 7px;
+}
+.all_transaction_title{
+    width: 300px;
+    height: 25px;
+     justify-content: space-between;
+     padding: 8px;
+     margin-top: 15px;
+     font-weight: 400;
+     font-size: 20px;
+    }
+
+.item_box_control{
+    padding:7px;
+    margin-top: 5px;
+}
+.transition_items{
+    background-color: #fafafb;
+    width: 295px;
+    height: 55px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border-radius: 3px;
+   box-shadow: inset;
+}
+.item_icon{
+    color:black;
+    width: 34px;
+    border-radius: 3px;
+    font-size: 22px;
+    padding-left: 3px;
+}
+.item_title{
+    width:150px;
+    margin-left: 13px;
+    padding: 5px;
+}
+.item_title h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.item_title span{
+    font-size: 13px;
+    font-weight: 300;
+    color:red;
+}
+.item_amount{
+    text-align: center;
+    margin-right: 0px;
+    width: 95px;
+    padding: 3px;
+    font-size: 14px;
+    color:rgb(150, 231, 28);
+}
